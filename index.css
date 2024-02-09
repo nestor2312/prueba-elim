@@ -226,7 +226,9 @@
   }
   
   .esquema .ganador .jugador{
-    width: 120px;
+    width: 115px;
+    display: flex;
+    justify-content: start;
   }
   
       .team-item:nth-child(n + 6) {
@@ -463,6 +465,8 @@
   .esquema .ganador .jugador{
     padding: 0px;
     font-size: 10px;
+    height: 30px;
+    width: 75px;
   }
   .logo{
     width: 25px;
@@ -474,11 +478,7 @@
     
     
   }
-  
 
-
-
-  
   @media (max-width: 375px) {
  
     .conectores .conector .conector_doble {
