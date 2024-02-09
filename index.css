@@ -141,11 +141,14 @@
     align-items: center;    
   }
   .esquema .ganador .jugador {
-    width: 150px;
-    padding: 10px;               
+    width: 135px;            
     background-color: #D9D9D9; 
-    border: 2px solid #000; 
+    border: 2px solid hsl(0, 0%, 0%); 
     border-radius: 5px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .titulos {
@@ -201,7 +204,7 @@
   @media  (max-width: 991px) {  
     /* Estilos para pantallas medianas, como tabletas */ 
     .conectores .conector .conector_doble {
-      width: 8px;
+      width: 6px;
   
   }
   .jornada_contenedor .jornada .jugador{
@@ -223,7 +226,7 @@
   }
   
   .esquema .ganador .jugador{
-    width: 140px;
+    width: 120px;
   }
   
       .team-item:nth-child(n + 6) {
@@ -415,6 +418,7 @@
   
   .esquema .ganador .jugador{
     width: 80px;
+    padding: 0px;
     font-size: 12px;
   }
   
@@ -430,15 +434,15 @@
     
     .conectores .conector .conector_doble {
       width: 1px;
-      padding: 2px;
+      padding: 1px;
   
   }
   .jornada_contenedor .jornada .jugador{
-    width: 98px;
+    width: 90px;
   }
   .conectores .conector .conector_simple{
-    width: 2px;
-    padding: 0 2px 0 0;
+    width: 1px;
+    padding: 0 1px 0 0;
   }
   .titulos{
     width: 99%;
@@ -446,7 +450,7 @@
     justify-content: space-between;
   }
   .titulo {
-    width: 95px;
+    width: 90px;
     font-size: 10px;
   }
   .equipo{
@@ -457,30 +461,40 @@
   }
   
   .esquema .ganador .jugador{
-    width: px;
-    font-size: 11px;
+    padding: 0px;
+    font-size: 10px;
+  }
+  .logo{
+    width: 25px;
+  }
+  .partido{
+    padding: 0px;
   }
   
     
     
   }
+  
+
+
+
   
   @media (max-width: 375px) {
-    
+ 
     .conectores .conector .conector_doble {
-      width: 1px;
-      padding: 2px;
+      width: 0%;
+      padding: 0px;
   
   }
   .jornada_contenedor .jornada .jugador{
     width: 80px;
   }
   .conectores .conector .conector_simple{
-    width: 2px;
-    padding: 0 2px 0 0;
+    width: 0px;
+    padding: 0 0px 0 0;
   }
   .titulos{
-    width: 99%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
   }
@@ -499,24 +513,18 @@
     width: 65px;
     font-size: 11px;
   }
-  
-    
     
   }
   
   @media (max-width: 320px) {
     
-    .conectores .conector .conector_doble {
-      width: 1px;
-      padding: 1px;
-  
-  }
+   
   .jornada_contenedor .jornada .jugador{
     width: 90px;
   }
   .conectores .conector .conector_simple{
-    width: 2px;
-    padding: 0 2px 0 0;
+ 
+    padding: 0 1px 0 0;
   }
   .titulos{
     width: 99%;
@@ -537,9 +545,5 @@
   .esquema .ganador .jugador{
     width: 80px;
   }
-  
     
   }
-  
-  
-  
