@@ -178,7 +178,7 @@
     border: 1px solid #ffffff78;
   }
   
-  
+ 
   
   
   /* Media//////////////////////////////////////////////////////////////////////// */
@@ -523,10 +523,7 @@
   }
   
   @media (max-width: 320px) {
-    .col-sm-12{
-      padding-left: 0px;
-      padding-right: 0px;
-    }
+  
    
   .jornada_contenedor .jornada .jugador{
     width: 90px;
@@ -549,6 +546,7 @@
   }
   .goles{
     font-size: 13px;
+    margin-right: 2px;
   }
   
   .esquema .ganador .jugador{
