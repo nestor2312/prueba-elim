@@ -97,7 +97,7 @@
   .partido .jornada .jugador {
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 100005px;
   }
   
   
@@ -507,17 +507,26 @@
   }
   .goles{
     font-size: 11px;
+    margin-right: 2px;
   }
   
   .esquema .ganador .jugador{
     width: 65px;
     font-size: 11px;
   }
+
+  .partido{
+    padding: 0px;
+  }
+  
     
   }
   
   @media (max-width: 320px) {
-    
+    .col-sm-12{
+      padding-left: 0px;
+      padding-right: 0px;
+    }
    
   .jornada_contenedor .jornada .jugador{
     width: 90px;
