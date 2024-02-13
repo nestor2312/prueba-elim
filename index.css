@@ -161,6 +161,7 @@
   }
   
   .titulo {
+    margin-left: 60px;
     padding: 5px;
     text-align: center;
     font-feature-settings: 'clig' off, 'liga' off;
@@ -196,6 +197,9 @@
         max-width: none; 
     }
   }
+  .titulo{
+    margin-left: 10px;
+  }
   
   @media (max-width: 1024px) {
     
@@ -213,7 +217,7 @@
   .titulos{
     width: 100%;
     display: flex;
-      justify-content: space-around;
+    
   }
   .titulo {
     width: 126px;
