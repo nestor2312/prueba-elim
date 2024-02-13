@@ -437,6 +437,7 @@
     .conectores .conector .conector_doble {
       width: 1px;
       padding: 1px;
+      background-color: #2158d9;
   
   }
   .jornada_contenedor .jornada .jugador{
@@ -460,6 +461,7 @@
   }
   .goles{
     font-size: 11px;
+    margin-right: 2px;
   }
   
   .esquema .ganador .jugador{
@@ -484,14 +486,18 @@
     .conectores .conector .conector_doble {
       width: 0%;
       padding: 0px;
+      border: 1px solid #000;
+    
   
   }
   .jornada_contenedor .jornada .jugador{
     width: 80px;
+    border: 1px solid #000;
   }
   .conectores .conector .conector_simple{
     width: 0px;
     padding: 0 0px 0 0;
+    border: 1px solid #000;
   }
   .titulos{
     width: 95%;
@@ -504,6 +510,7 @@
   }
   .equipo{
     font-size: 10px;
+    background-color: red;
   }
   .goles{
     font-size: 11px;
@@ -513,6 +520,7 @@
   .esquema .ganador .jugador{
     width: 65px;
     font-size: 11px;
+    border: 1px solid #000;
   }
 
   .partido{
@@ -527,6 +535,7 @@
    
   .jornada_contenedor .jornada .jugador{
     width: 90px;
+    border: 1px solid #000;
   }
   .conectores .conector .conector_simple{
  
@@ -543,10 +552,11 @@
   }
   .equipo{
     font-size: 12px;
+    background-color: rgb(183, 255, 0);
   }
   .goles{
     font-size: 13px;
-    margin-right: 2px;
+    margin-right: 5px;
   }
   
   .esquema .ganador .jugador{
